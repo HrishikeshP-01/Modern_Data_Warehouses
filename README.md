@@ -11,3 +11,14 @@ There are many different types of data warehousing solutions. One of the most co
 - *Bottom tier* – contains actual database server
 - *Middle tier* – server for online analytical processing (OLAP). This server is responsible for transforming data. It can map multi-dimensional data to relational operations or leverage a multi-dimensional OLAP model, etc.
 - *Top tier* – similar to UI layer. Contains tools common for data warehousing analytics such as reporting & mining.
+
+## Data warehousing approaches
+2 of the most commonly used approaches to data warehousing were created by Bill Inmon & Ralph Kimball.
+#### Bill Inmon’s approach
+- It’s also referred to as a top-down approach
+- Data warehouse is treated as a central repository for the data
+- Data marts are then created to address individual business lines
+#### Ralph Kimball’s approach
+- Bottom-up approach
+- Data mart is the main method for data storage
+- Data warehouse is then created & comprises of multiple data marts with shared analytics, reporting & BI essentials. This allows for uniform analytics jobs
