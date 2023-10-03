@@ -34,3 +34,9 @@ There are many different types of data warehousing solutions. One of the most co
 - Speed – substantially faster than on-premise options, due to the use of ETL which is not commonly used in on-premise options
 - Flexibility – designed to account for the variety of formats & structures in big data
 - Scalability – clouds are elastic
+
+Earlier the focus of data warehouses was to stack data & focus on processing it for analytics. Now instead of just stacking the data, we are also focusing on storing loads of it as big data for advanced analytics. 
+
+A traditional data warehouse can be compared to a data store & a modern data warehouse can be compared to a mega distribution store. Traditional data warehouses are focused more on data analytics & modern data warehouses focus on enterprise analytics.
+
+**Data lake** – a repository that takes data from multiple sources & stores them in a variety of formats
