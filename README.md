@@ -27,3 +27,10 @@ There are many different types of data warehousing solutions. One of the most co
 - *Data analytics layer* - There is a specific layer for data analytics, data mining jobs
 - *Staging area* – different sources have different formats & structures. In the staging area, data is converted into a specific structure & format
 - *Data Marts* – they assist the staging area by acting as a housing for a specific line of business & are summarized for specific queries
+
+## Cloud-based data warehouses advantages
+- Up-front costs
+- Ongoing costs – pay as you go model
+- Speed – substantially faster than on-premise options, due to the use of ETL which is not commonly used in on-premise options
+- Flexibility – designed to account for the variety of formats & structures in big data
+- Scalability – clouds are elastic
