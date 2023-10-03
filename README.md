@@ -22,3 +22,8 @@ There are many different types of data warehousing solutions. One of the most co
 - Bottom-up approach
 - Data mart is the main method for data storage
 - Data warehouse is then created & comprises of multiple data marts with shared analytics, reporting & BI essentials. This allows for uniform analytics jobs
+
+## On-premises data warehouse components
+- *Data analytics layer* - There is a specific layer for data analytics, data mining jobs
+- *Staging area* – different sources have different formats & structures. In the staging area, data is converted into a specific structure & format
+- *Data Marts* – they assist the staging area by acting as a housing for a specific line of business & are summarized for specific queries
