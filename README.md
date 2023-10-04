@@ -73,6 +73,14 @@ Previously, the strategy used by organizations to save money was to transfer dat
 - Must support multiple intercloud interactions & interactions with on-premises systems
 - Should facilitate easy reconciliation of structured & unstructured data
 
+## Benefits of unified data warehouse
+- Great scalability & agility
+- Cost reduction
+- Faster deployment & processing speeds
+- Easier disaster recovery
+- Improved governance & security capabilities
+
+Modern data warehouses separate the compute & storage functions to optimize infrastructure investments. This also provides the ability to query the data at any tier. This is also cost effective especially if you are using a cloud vendor as they charge different rates for storage & compute resources. Therefore the compute resources can be enabled/disabled according to usage & thereby save money.
 
 
 
