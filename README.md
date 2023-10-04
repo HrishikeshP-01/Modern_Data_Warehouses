@@ -116,6 +116,32 @@ Redshift allows users to easily build pipelines to multiple sources & perform BI
 - Possibility of historic replays of data
 - Amazon redshift is commonly used for mission-critical workloads with time-sensitive information flaws. In these operations, the key concern is having the database running all the time.
 
+## Google BigQuery
+- Serverless data warehouse
+- Easy scalable analysis
+- PaaS 
+- Queries in ANSI SQL
+- It contains built-in ML capabilities & provides access to Google’s Dremel technology – a scalable, interactive ad hoc query system for analysis of nested data
+
+#### Google BigQuery Features
+- Data management – enables creating & deleting objects such as tables, views, user-defined objects etc., importing data
+- Data queries – queries are expressed in SQL & results are returned in JSON format with a max. reply length of 128 MB & size is unlimited when large query results are enabled
+- Data integration – BigQuery can be used in any apps using its REST API etc.
+- Access control – enables sharing of datasets with arbitrary individuals, groups, etc.
+- ML capabilities – ML models can easily be created & executed using SQL
+
+#### Google BigQuery Architecture
+- *Dremel* – highly scalable query execution engine for petabyte-scale datasets. It uses a combination of columnar data layouts & a 3 type architecture that can process incoming query requests. It is capable of independently scaling compute nodes to meet the demands of the highest level queries.
+- *Colossus* – distributed file system with high storage capabilities & disaster recovery strategies
+- *Jupiter network* – bridge between Colossus’ data storage & Dremel which offers bi-directional large volume data movement
+
+#### Google BigQuery Features
+- Manageability – administrator is not required to manage the service. It’s taken care of by Google. Patching, upgrades, storage management, compute allocation, etc. is managed by Google thereby offering serverless execution to users.
+- Highly scalable
+- Load data in different formats & has a built-in conversion to BigQuery
+- Data ingestion – supports data streaming & batch data ingestion at no extra cost
+- Security – supports multiple authentication models & granular permissions
+- Usability – traditional data warehousing patterns are closely followed
 
 
 
