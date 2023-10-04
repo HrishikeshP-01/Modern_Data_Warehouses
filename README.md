@@ -58,3 +58,29 @@ A traditional data warehouse can be compared to a data store & a modern data war
   - Supports batch & interactive workloads
   - Supports large no: of simultaneous users
 Previously, the strategy used by organizations to save money was to transfer data from databases to file systems. Now, the trend is to move data from file systems to object storage. This is because cheap storage is of lower priority than data availability.
+
+## Modernized data warehousing tools
+- *Apache Hbase* – key-value columnar database
+- *Apache HCatalog* – metadata, table & storage management system
+- *Hadoop MapReduce* – scalable data processing tool
+- *Apache Hive* – open-source language built for MapReduce to assist with large data analytics
+- *Oozie* – MapReduce job scheduling tool
+- *Apache Pig* – language with MapReduce functionality used in parallel data processing
+- *Apache Zookeeper* – hierarchical key-value store for synchronization
+
+## A modern data warehouse must
+- Support cloud-based platforms & cloud-to-cloud interactions
+- Must support multiple intercloud interactions & interactions with on-premises systems
+- Should facilitate easy reconciliation of structured & unstructured data
+
+
+
+
+
+
+
+
+
+
+
+
