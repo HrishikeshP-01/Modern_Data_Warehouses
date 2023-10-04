@@ -82,6 +82,47 @@ Previously, the strategy used by organizations to save money was to transfer dat
 
 Modern data warehouses separate the compute & storage functions to optimize infrastructure investments. This also provides the ability to query the data at any tier. This is also cost effective especially if you are using a cloud vendor as they charge different rates for storage & compute resources. Therefore the compute resources can be enabled/disabled according to usage & thereby save money.
 
+## Amazon Redshift
+- Data warehouse product which is part of AWS. 
+- *Redshift* – shift from oracle (logo is red)
+- Built on massive parallel processing technology
+- Can easily handle large-scale data & facilitate data migrations
+- Easily handle analytical workloads on big data sets
+
+#### Amazon Redshift features
+- Decreases command execution time using parallel processing & compression
+- Can perform operations on billions of rows at once making it useful for data storage & analytics
+
+#### Redshift architecture
+1. Typically, a Redshift cluster consists of 2 or more cluster nodes which is coordinated through a leader node. The clients communicate to the leader node. The leader node manages internal & external communication & is responsible for the preparation of query execution plans.
+2. Once the query execution plan is ready, the leader node then dispenses query execution code to each of the compute nodes & assigns slices of data to each node in the cluster for easy computation of results. 
+3. The leader node dispenses query execution to compute nodes only when the query involves accessing data stored on compute nodes. Otherwise, the query is executed on leader node itself.
+
+There are 2 types of compute nodes:
+- *Dense storage* – allow us to create large data warehouses using HDDs hard-disk drives
+- *Dense compute* – allow us to create large data warehouses using SSDs solid-state drives
+
+*A typical compute node consists of node slices*. Each node slice is assigned a part of the compute node’s memory & disk, where it performs query operations
+- *Redshift uses columnar data storage* – reduces no: of IO requests & minimizes data loaded into memory during querying
+- Data compression – reduces storage footprint & enables loading of large amounts of data
+- *Redshift query optimizer* – generates query plans that are MPP-aware & takes advantage of columnar data storage
+
+#### Amazon Redshift use cases
+Redshift allows users to easily build pipelines to multiple sources & perform BI operations on the incoming data which is cheaper than a traditional data warehouse.
+
+#### Advantages of storing raw data in Redshift
+- Higher level of analytical insight
+- Minimal data loss & no aggregation requirements
+- Possibility of historic replays of data
+- Amazon redshift is commonly used for mission-critical workloads with time-sensitive information flaws. In these operations, the key concern is having the database running all the time.
+
+
+
+
+
+
+
+
 
 
 
