@@ -40,3 +40,21 @@ Earlier the focus of data warehouses was to stack data & focus on processing it 
 A traditional data warehouse can be compared to a data store & a modern data warehouse can be compared to a mega distribution store. Traditional data warehouses are focused more on data analytics & modern data warehouses focus on enterprise analytics.
 
 **Data lake** – a repository that takes data from multiple sources & stores them in a variety of formats
+
+## Advantages of a modern data warehouse
+- User benefits
+  - Less time spent on preparing & moving data
+  - More time is spent on innovative analytics & new business models
+  - Organizational benefits
+  - Analyze new data faster
+  - Reduce overall cost of ownership
+  - Increased productivity
+  - Technological benefits
+  - 100% availability
+  - Highly scalable
+  - Resolve queries correctly in any schema
+  - Provides real-time updates
+  - Handles ETL processes
+  - Supports batch & interactive workloads
+  - Supports large no: of simultaneous users
+Previously, the strategy used by organizations to save money was to transfer data from databases to file systems. Now, the trend is to move data from file systems to object storage. This is because cheap storage is of lower priority than data availability.
