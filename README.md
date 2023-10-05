@@ -160,6 +160,17 @@ Conditions that determine which columns are to be loaded are:
 ## From staging area to data stores
 ETL process transfer data from source/operational systems -> staging area which is a temporary storage area where data is transformed as necessary -> Operations management tools which process the data -> finally the data is kept in data storage
 
+## Data quality measures
+Data quality is measured in terms of –
+1. Completeness
+2. Consistency
+3. Accuracy
+
+## Improving data quality
+- *Data ingestion firewall* – data from a data warehouse can’t be used directly before it’s processed & cleansed. The firewall ensures data quality.
+- *Data profiling* – ensure the data quality is always up to standard
+
+
 
 
 
