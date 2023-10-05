@@ -195,6 +195,32 @@ Data quality is measured in terms of –
 - Any IT resource can be reached using a service device
 - Web services use specific standards & protocols when they are implemented as SOA solutions
 
+## Data ingestion & analytics can be done in 3 different ways:
+1. Batch processing
+2. Real-time processing
+3. Streaming analytics
+
+#### Batch processing
+- Netflix users generate lots of data everyday. The data scientists & engineers have to collect this data & implement data analytics models to find customer behavior.
+- First, they write an ETL job & pipeline the data
+- The processed data is stored in AWS S3
+- Iceberg is used in Netflix for data tabulation
+- Netflix also utilizes a microservice architecture that emphasizes on the separation of concerns
+
+The above jobs require a fast lookup which can’t be channeled through data warehouse as it requires a lot of time. Therefore, the key attributes are stored on a global low latency & reliable key-value store.
+
+**Bulldozer** – self-serve data platform that moves data efficiently from data warehouse tables to key-value stores in batches.
+- Scalable & efficient no-code solution
+- Provides functionality to auto-generate data schema
+- Can be executed at the desired frequency – once or many times a day
+**Protobuf** – filing method used by Bulldozer
+- For representing warehouse table schema into key-value schema
+- Serializing & de-serializing key-value data when performing read-write operations to KvDal (Key value data abstraction layer). This keeps key value storage engine abstracted so users don’t have to work with it.
+
+##### Bulldozer requirements
+- Data integrity – for 1 bulldozer job moving 1 version of data it should write the full dataset or nothing
+- Seamless data consumption – once a bulldozer job finishes moving a new version of data, the consumer should be able to start reading the new data seamlessly
+- *Data fallback* – fallback to previous version if data is corrupted
 
 
 
