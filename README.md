@@ -170,6 +170,16 @@ Data quality is measured in terms of –
 - *Data ingestion firewall* – data from a data warehouse can’t be used directly before it’s processed & cleansed. The firewall ensures data quality.
 - *Data profiling* – ensure the data quality is always up to standard
 
+## Hadoop data storage advantages
+- Data is stored across multiple serves
+- Missing data is replicated from other servers
+- Analysis software is separate from raw data storage
+- Relatively low cost of data storage
+
+## Hadoop data storage disadvantages
+- May cause data quality issues due to processing
+- Data needs to be cleansed & mined thoroughly before performing analyses
+- Specialists are required to file & report data extraction using Hadoop
 
 
 
