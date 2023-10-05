@@ -222,6 +222,25 @@ The above jobs require a fast lookup which can’t be channeled through data war
 - Seamless data consumption – once a bulldozer job finishes moving a new version of data, the consumer should be able to start reading the new data seamlessly
 - *Data fallback* – fallback to previous version if data is corrupted
 
+#### Real-time analytics
+- IPL cricket analytics platform uses Amazon Redshift to store all historic data of the league aggregated from multiple databases & uses this data for ML & predictive modelling.
+- Key cricket metrics used are:
+- Match performance moving averages
+- Score forecasting
+- Fitness & performance insights for pairs of players
+- Individual player contributions to wins & losses
+
+Using real-time data analytics during the game, the team can even improve their winning chances by coming up with new tactics guided by data.
+
+#### Streaming analytics
+- Uber uses big data to gain insights of in-the moment traffic conditions to predict estimated delivery time of UberEats.
+
+Uber needed:
+- Easy to comprehend data analytics platform
+- Scalable & efficient for real-time analytics
+- Robust enough to continuously support a large number of critical jobs
+- They made AthenaX
+
 
 
 
