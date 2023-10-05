@@ -181,6 +181,19 @@ Data quality is measured in terms of –
 - Data needs to be cleansed & mined thoroughly before performing analyses
 - Specialists are required to file & report data extraction using Hadoop
 
+## Data warehousing techniques
+#### Data management
+- Data management is responsible for data quality
+- Increasing data complexity requires effective data management strategies
+- Data  management provides a unified view on data ingested from multiple sources
+- Identical data definitions are required across organizational boundaries
+- Data management enables data sources consolidation into a master reference database
+
+#### Service oriented architecture
+- Implement the organization resources towards a services approach
+- It’s a design philosophy providing a service instead of a product. 
+- Any IT resource can be reached using a service device
+- Web services use specific standards & protocols when they are implemented as SOA solutions
 
 
 
