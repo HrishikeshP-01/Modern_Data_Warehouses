@@ -241,6 +241,11 @@ Uber needed:
 - Robust enough to continuously support a large number of critical jobs
 - They made AthenaX
 
+## Hybrid modern data warehouses
+- Retrieving data from a data warehouse poses latency issues. Therefore, data marts are created to store all domain specific data from a data warehouse locally. This reduces server downtime & speeds up data analytics processes.
+- Batch processing is required when day-to-day company data needs to be analyzed & presented in a report.
+- Real-time analytics using data marts – data marts are used for intermediate real-time processing of data. Data marts make it possible for some domain-specific data to be loaded into a data model & analyzed without utilizing a data warehouse.
+- Streaming analytics need to analyze data as it is generated which is useful for making instantaneous decisions like stock market trading.
 
 
 
