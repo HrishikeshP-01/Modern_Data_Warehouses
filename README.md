@@ -143,6 +143,29 @@ Redshift allows users to easily build pipelines to multiple sources & perform BI
 - Security – supports multiple authentication models & granular permissions
 - Usability – traditional data warehousing patterns are closely followed
 
+**ETL** – a data warehouse process which includes 3 actions: 
+- Extract – extract data from source
+- Transform – transform data for business use
+- Load – load data to target table in a data warehouse or different locations inside data warehouse
+
+## Column  selection approaches
+Conditions that determine which columns are to be loaded are:
+- Translating coded values – for example, something can be indicated using colors but to store them in the system we could use numeric values which denote each color
+- Value mapping 
+- Joining different values. Eg: merging
+- Summing several data rows
+- Surrogate key selection
+- *Transposing* – changing multiple columns to multiple rows or vice versa
+
+## From staging area to data stores
+ETL process transfer data from source/operational systems -> staging area which is a temporary storage area where data is transformed as necessary -> Operations management tools which process the data -> finally the data is kept in data storage
+
+
+
+
+
+
+
 
 
 
